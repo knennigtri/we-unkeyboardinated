@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/demo">
+        <exclude pattern="/apps/demo/install" />
+    </filter>
+    <filter root="/apps/sling" />
+    <filter root="/etc/designs/demo"/>
+    <filter root="/etc/designs/we-unkeyboardinated"/>
+</workspaceFilter>
