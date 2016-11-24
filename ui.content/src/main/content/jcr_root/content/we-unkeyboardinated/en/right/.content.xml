@@ -2,12 +2,14 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2016-07-01T19:12:36.580-07:00"
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2016-11-18T22:18:27.385-08:00"
         cq:lastModifiedBy="admin"
-        cq:template="/apps/demo/templates/page-left-bar"
+        cq:template="/apps/demo/templates/page-right-bar"
         jcr:primaryType="cq:PageContent"
-        jcr:title="About us"
-        sling:resourceType="demo/components/structure/page-left-sidebar">
+        jcr:title="Right Side Bar"
+        sling:resourceType="demo/components/structure/page-right-sidebar">
         <logo
             jcr:primaryType="nt:unstructured"
             sling:resourceType="demo/components/structure/logo"/>
