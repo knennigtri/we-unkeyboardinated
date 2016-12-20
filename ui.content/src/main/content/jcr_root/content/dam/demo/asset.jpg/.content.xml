@@ -6,14 +6,14 @@
     jcr:uuid="13661128-79ee-436a-a063-373de6cbc76f">
     <jcr:content
         dam:relativePath="demo/asset.jpg"
-        jcr:lastModified="{Date}2016-11-18T21:56:44.306-08:00"
+        jcr:lastModified="{Date}2016-11-23T23:01:58.664-05:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
             dam:ColorSpace="{Long}-1"
             dam:ExifOffset="{Long}232"
-            dam:extracted="{Date}2016-11-18T21:56:43.878-08:00"
+            dam:extracted="{Date}2016-11-23T23:01:58.354-05:00"
             dam:Fileformat="JPEG"
             dam:JpgFromRawLength="{Long}988"
             dam:JpgFromRawStart="{Long}382"
@@ -51,7 +51,7 @@
             xmp:CreateDate="{Date}2014-05-26T17:52:20.000+02:00"
             xmp:CreatorTool="Adobe Photoshop CC (Macintosh)"
             xmp:MetadataDate="{Date}2014-05-26T17:53:28.000+02:00"
-            xmp:ModifyDate="{Date}2014-05-26T17:53:28.000-07:00"
+            xmp:ModifyDate="{Date}2014-05-26T17:53:28.000-04:00"
             xmpMM:DocumentID="xmp.did:AE2E3F741ACA11E39F4CD06DF927654C"
             xmpMM:InstanceID="xmp.iid:61e45f9c-a0cb-4560-83c5-054bb35d320a"
             xmpMM:OriginalDocumentID="xmp.did:4576AD9C112068118083FEAE8F0AE3A0">
