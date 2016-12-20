@@ -1,8 +1,8 @@
 <%--
 
-  Link Component component.
+  List Component component.
 
-  Link with details and other information
+  
 
 --%><%
 %><%@include file="/libs/foundation/global.jsp"%><%
