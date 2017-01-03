@@ -7,10 +7,7 @@
 <div id="top">
 	<div data-sly-resource="${'hero' @ resourceType='demo/components/structure/hero'}"></div>
 		<section id="one" class="wrapper style1" >
-			<header class="major">
-				<h2>Ipsum feugiat consequat</h2>
-				<p>Tempus adipiscing commodo ut aliquam blandit</p>
-			</header>
+			<div data-sly-resource="${'title' @ resourceType='demo/components/structure/title-page'}"></div>
 			<div data-sly-resource="${'grid' @ resourceType='wcm/foundation/components/responsivegrid'}"></div>
 		</section>
 	<sly data-sly-include="${'footer' @ resourceType='footer.html'}"></sly>
