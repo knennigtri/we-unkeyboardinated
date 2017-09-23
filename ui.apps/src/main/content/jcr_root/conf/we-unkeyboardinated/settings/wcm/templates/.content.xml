@@ -3,4 +3,7 @@
     jcr:primaryType="cq:Page">
     <hero-template/>
     <redirect-page/>
+    <content-page-template/>
+    <left-sidebar-template/>
+    <right-sidebar-template/>
 </jcr:root>

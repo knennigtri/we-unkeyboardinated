@@ -2,11 +2,10 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:cloudserviceconfigs="[[]]"
+        cq:allowedTemplates="/conf/we-unkeyboardinated/settings/wcm/templates/.*"
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:designPath="/etc/designs/we-unkeyboardinated"
-        cq:lastModified="{Date}2016-12-20T11:43:25.391-08:00"
+        cq:lastModified="{Date}2017-09-22T17:08:16.672-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/demo/templates/page-redirect"
         jcr:primaryType="cq:PageContent"
@@ -32,5 +31,6 @@
             <file/>
         </image>
     </jcr:content>
+    <language-masters-old/>
     <language-masters/>
 </jcr:root>

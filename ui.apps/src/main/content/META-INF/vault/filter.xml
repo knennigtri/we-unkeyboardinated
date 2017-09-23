@@ -7,6 +7,7 @@
     <!-- NEW Filters 2017 -->
     
     <filter root="/conf/we-unkeyboardinated"/>
+    <filter root="/content/experience-fragments"/>
     <filter root="/apps/weunkey">
     	<exclude pattern="/apps/weunkey/install" />
     </filter>

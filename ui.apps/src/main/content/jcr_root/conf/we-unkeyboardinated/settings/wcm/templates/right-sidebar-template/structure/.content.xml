@@ -3,32 +3,59 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2017-09-22T22:33:04.588-07:00"
+        cq:lastModified="{Date}2017-09-22T22:42:07.355-07:00"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/we-unkeyboardinated/settings/wcm/templates/hero-template"
+        cq:template="/conf/we-unkeyboardinated/settings/wcm/templates/right-sidebar-template"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="weunkey/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <header
-                jcr:created="{Date}2017-09-22T16:49:36.222-07:00"
+                jcr:created="{Date}2017-09-22T22:39:06.770-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2017-09-22T16:49:36.222-07:00"
+                jcr:lastModified="{Date}2017-09-22T22:39:06.770-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="weunkey/components/structure/header"/>
-            <hero
-                jcr:created="{Date}2017-09-22T17:29:54.080-07:00"
+            <responsivegrid_46487728
+                jcr:created="{Date}2017-09-22T22:40:15.013-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2017-09-22T17:29:54.080-07:00"
+                jcr:lastModified="{Date}2017-09-22T22:40:15.013-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="weunkey/components/structure/hero"/>
-            <responsivegrid
-                jcr:created="{Date}2017-09-22T17:30:23.633-07:00"
+                sling:resourceType="wcm/foundation/components/responsivegrid"
+                editable="{Boolean}true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        width="8"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </responsivegrid_46487728>
+            <responsivegrid_235967764
+                jcr:created="{Date}2017-09-22T22:39:35.254-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2017-09-22T17:30:23.633-07:00"
+                jcr:lastModified="{Date}2017-09-22T22:39:35.254-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"
+                editable="{Boolean}true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        width="4"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </responsivegrid_235967764>
+            <responsivegrid
+                jcr:created="{Date}2017-09-22T22:39:12.126-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-09-22T22:39:12.126-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid"
@@ -36,9 +63,9 @@
                 <cq:responsive jcr:primaryType="nt:unstructured"/>
             </responsivegrid>
             <footer
-                jcr:created="{Date}2017-09-22T22:33:04.585-07:00"
+                jcr:created="{Date}2017-09-22T22:39:09.134-07:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2017-09-22T22:33:04.585-07:00"
+                jcr:lastModified="{Date}2017-09-22T22:39:09.134-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="weunkey/components/structure/footer"/>

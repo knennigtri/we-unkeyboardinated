@@ -2,11 +2,10 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2017-09-22T22:33:04.588-07:00"
+        cq:lastModified="{Date}2017-09-22T22:42:56.484-07:00"
         cq:lastModifiedBy="admin"
         cq:templateType="/conf/we-unkeyboardinated/settings/wcm/template-types/empty-page"
-        jcr:description="Template for We.Unkeyboarded Hero Pages"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Hero Template"
+        jcr:title="Left Sidebar Template"
         status="enabled"/>
 </jcr:root>

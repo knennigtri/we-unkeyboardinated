@@ -1,12 +1,37 @@
-<%--
-
-  Footer Component component.
-
-  
-
---%><%
-%><%@include file="/libs/foundation/global.jsp"%><%
-%><%@page session="false" %><%
-%><%
-	// TODO add you code here
-%>
+		<!-- Footer -->
+			<footer id="footer" data-sly-use.footer="footer.js">
+				<div class="container">
+					<div class="row double">
+						<div class="6u">
+							<div class="row collapse-at-2">
+								<div class="6u" data-sly-use.header="../header/header.js">
+									<h3>Navigation</h3>
+									<ul class="alt">
+								        <li data-sly-repeat="${header.items}"><a href="${item.path}.html">${item.title}</a></li>
+								    </ul>
+								</div>
+								<div class="6u" data-sly-use.header="../header/header.js">
+									<h3>Other Pages</h3>
+									<ul class="alt">
+								        <li data-sly-repeat="${header.items}"><a href="${item.path}.html">${item.title}</a></li>
+								    </ul>
+								</div>
+							</div>
+						</div>
+						<div class="6u">
+							<h2>About the Author</h2>
+							<p>Kevin Nennig is an AEM developer and avid traveler. In his free time he enjoys coding projects and being outside running or preparing for his next adventure</p>
+							<ul class="icons">
+								<li><a href="https://twitter.com/knennigTri" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.linkedin.com/in/kevinnennig/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/knennigtri/" class="icon fa-github"><span class="label">Github</span></a></li>
+							</ul>
+						</div>
+					</div>
+					<ul class="copyright">
+						<li><i class="icon fa-copyright"></i> We.Unkeyboardinated. All rights reserved.</li>
+						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+						<li>Developer: <a href="https://www.linkedin.com/in/kevinnennig/">Kevin Nennig</a></li>
+					</ul>
+				</div>
+			</footer>
