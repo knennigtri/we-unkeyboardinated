@@ -183,7 +183,6 @@
 	header.major {
 		text-align: center;
 	/*	margin: 0 0 4em 0; */
-	margin-top: 100px;
 	}
 
 		header.major h2 {
@@ -877,6 +876,9 @@
 				}
 
 /* Header */
+	.header {
+		margin-bottom: 100px;
+	}
 
 	#skel-layers-wrapper {
 		padding-top: 3em;
