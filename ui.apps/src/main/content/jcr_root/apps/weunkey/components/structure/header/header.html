@@ -1,0 +1,12 @@
+<!-- Header -->
+<header id="header" class="skel-layers-fixed">
+	<h1><a href="#">Ion</a></h1>
+	<nav id="nav">
+        <ul data-sly-use.header="header.js" >
+            <li data-sly-repeat="${header.items}">
+                <a href="${item.path}.html">${item.title}</a>
+            </li>
+			<li><a href="#" class="button special">Sign Up</a></li>
+		</ul>
+	</nav>
+</header>

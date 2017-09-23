@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/apps/demo">
-        <exclude pattern="/apps/demo/install" />
-    </filter>
     <filter root="/apps/sling" />
-    <filter root="/etc/designs/demo"/>
-    <filter root="/etc/designs/we-unkeyboardinated"/>
+    
+    
+    
+    <!-- NEW Filters 2017 -->
+    
+    <filter root="/conf/we-unkeyboardinated"/>
+    <filter root="/apps/weunkey">
+    	<exclude pattern="/apps/weunkey/install" />
+    </filter>
 </workspaceFilter>

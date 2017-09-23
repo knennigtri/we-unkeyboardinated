@@ -26,8 +26,6 @@
         <module>core</module>
         <module>ui.apps</module>
         <module>ui.content</module>
-        <module>it.tests</module>
-        <module>it.launcher</module>
     </modules>
 
     <properties>
@@ -129,6 +127,14 @@
                     <downloadSources>true</downloadSources>
                 </configuration>
             </plugin>
+            
+            <!-- Adding HTL Maven PLugin -->
+            <plugin>
+       		    <groupId>org.apache.sling</groupId>
+          		<artifactId>htl-maven-plugin</artifactId>
+          		<version>1.0.6</version>
+        	</plugin>
+        
         </plugins>
         <pluginManagement>
             <plugins>
@@ -231,7 +237,9 @@
                         <targetURL>http://${aem.host}:${aem.port}/crx/packmgr/service.jsp</targetURL>
                         <failOnError>true</failOnError>
                         <failOnMissingEmbed>true</failOnMissingEmbed>
+                         
                     </configuration>
+                    
                 </plugin>
                 <!-- Apache Felix Bundle Plugin -->
                 <plugin>
@@ -427,11 +435,13 @@
 			    <artifactId>org.apache.servicemix.bundles.javax-inject</artifactId>
 			    <version>1_2</version>
 			</dependency>
+			
+			<!-- Adding Uber Jar Dependency -->
 			<dependency>
 			    <groupId>com.adobe.aem</groupId>
 			    <artifactId>uber-jar</artifactId>
-			    <version>6.2.0</version>
-			    <classifier>obfuscated-apis</classifier>
+			    <version>6.3.0</version>
+			    <classifier>apis</classifier>
 			    <scope>provided</scope>
 			</dependency>
             
@@ -494,6 +504,13 @@
                 <version>1.4</version>
                 <scope>test</scope>
             </dependency>
+            <!-- Adding Core Components Dependency -->
+            <dependency>
+			    <groupId>com.adobe.cq</groupId>
+			    <artifactId>core.wcm.components.all</artifactId>
+			    <type>zip</type>
+			    <version>1.0.6</version>
+			</dependency>
         </dependencies>
     </dependencyManagement>
 

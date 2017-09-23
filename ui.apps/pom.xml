@@ -118,15 +118,43 @@
                     <verbose>true</verbose>
                     <failOnError>true</failOnError>
                     <group>Demo Content Package</group>
+                    <embeddedTarget>/apps/weunkey/install</embeddedTarget>
                     <embeddeds>
                         <embedded>
                             <groupId>com.kevinnennig</groupId>
                             <artifactId>com.kevinnennig.core</artifactId>
-                            <target>/apps/demo/install</target>
+                            
+                        </embedded>
+                        <embedded>
+                        		<groupId>com.adobe.cq</groupId>
+						  	    <artifactId>core.wcm.components.all</artifactId>
+						    	<filter>true</filter>
+						    	
                         </embedded>
                     </embeddeds>
+                            <subPackage>
+						   	    
+							</subPackage>
                 </configuration>
             </plugin>
+            
+            <plugin>
+                <groupId>org.apache.sling</groupId>
+                <artifactId>htl-maven-plugin</artifactId>
+                <configuration>
+                    <sourceDirectory>src/main/content</sourceDirectory>
+                </configuration>
+				  <executions>
+                    <execution>
+                        <id>validate-scripts</id>
+                        <goals>
+                            <goal>validate</goal>
+                        </goals>
+                        <phase>compile</phase>
+                    </execution>
+                </executions>
+            </plugin>
+            
         </plugins>
     </build>
 
@@ -155,6 +183,7 @@
                             <targetURL>http://${aem.host}:${aem.port}/crx/packmgr/service.jsp</targetURL>
                             <failOnError>true</failOnError>
                             <failOnMissingEmbed>true</failOnMissingEmbed>
+
                         </configuration>
                      </plugin>
                  </plugins>
@@ -201,7 +230,7 @@
         <dependency>
 		    <groupId>com.adobe.aem</groupId>
 		    <artifactId>uber-jar</artifactId>
-		    <classifier>obfuscated-apis</classifier>
+		    <classifier>apis</classifier>
 		</dependency>
 
         <dependency>
@@ -218,5 +247,11 @@
             <groupId>com.day.cq.wcm</groupId>
             <artifactId>cq-wcm-taglib</artifactId>
         </dependency>
+        
+         <dependency>
+			    <groupId>com.adobe.cq</groupId>
+			    <artifactId>core.wcm.components.all</artifactId>
+			    <type>zip</type>
+		</dependency>
     </dependencies>
 </project>
