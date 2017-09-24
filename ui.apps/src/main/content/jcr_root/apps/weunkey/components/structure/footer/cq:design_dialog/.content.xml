@@ -36,8 +36,8 @@
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                                         fieldDescription="Leave empty to use the page title."
-                                        fieldLabel="Column 3 Title"
-                                        name="./col3title"/>
+                                        fieldLabel="Column 2 Title"
+                                        name="./col2title"/>
                                     <col3title
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"

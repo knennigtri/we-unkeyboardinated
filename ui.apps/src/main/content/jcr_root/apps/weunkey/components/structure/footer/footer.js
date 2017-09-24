@@ -1,12 +1,9 @@
 "use strict";
 use(function() {
-    
-	
-	
 	return {
-        col1title: properties.get("col1title"),
-        col2title: properties.get("col2title"),
-        col3title: properties.get("col3title"),
-        col3text: properties.get("col3text"),
+        col1title: currentStyle.get("col1title", "Placeholder"),
+        col2title: currentStyle.get("col2title", "Placeholder"),
+        col3title: currentStyle.get("col3title", "Placeholder"),
+        col3text: currentStyle.get("col3text", "Your Text here"),
     }
 });

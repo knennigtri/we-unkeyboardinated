@@ -5,13 +5,13 @@
 						<div class="6u">
 							<div class="row collapse-at-2">
 								<div class="6u" data-sly-use.header="../header/header.js">
-									<h3>Navigation</h3>
+									<h3>${footer.col1title}</h3>
 									<ul class="alt">
 								        <li data-sly-repeat="${header.items}"><a href="${item.path}.html">${item.title}</a></li>
 								    </ul>
 								</div>
 								<div class="6u" data-sly-use.header="../header/header.js">
-									<h3>Other Pages</h3>
+									<h3>${footer.col2title}</h3>
 									<ul class="alt">
 								        <li data-sly-repeat="${header.items}"><a href="${item.path}.html">${item.title}</a></li>
 								    </ul>
@@ -19,8 +19,8 @@
 							</div>
 						</div>
 						<div class="6u">
-							<h2>About the Author</h2>
-							<p>Kevin Nennig is an AEM developer and avid traveler. In his free time he enjoys coding projects and being outside running or preparing for his next adventure</p>
+							<h3>${footer.col3title}</h3>
+							<p>${footer.col3text}</p>
 							<ul class="icons">
 								<li><a href="https://twitter.com/knennigTri" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 								<li><a href="https://www.linkedin.com/in/kevinnennig/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
