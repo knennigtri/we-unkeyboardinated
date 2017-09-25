@@ -26,12 +26,12 @@
                                 jcr:title="Links"
                                 sling:resourceType="granite/ui/components/coral/foundation/container">
                                 <items jcr:primaryType="nt:unstructured">
-                                    <col1title
+                                    <leftTitle
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                                         fieldDescription="Leave empty to use the page title."
                                         fieldLabel="Column 1 Title"
-                                        name="./col1title"/>
+                                        name="./leftTitle"/>
                                     <setStatic
                                         granite:class="list-option-listfrom-showhide-target foundation-layout-util-vmargin"
                                         jcr:primaryType="nt:unstructured"
@@ -62,7 +62,7 @@
                                                                 <field
                                                                     jcr:primaryType="nt:unstructured"
                                                                     sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
-                                                                    name="./leftPages"
+                                                                    name="./leftPagePaths"
                                                                     rootPath="/content"/>
                                                             </multi>
                                                         </items>
@@ -86,12 +86,12 @@
                                 jcr:title="Links"
                                 sling:resourceType="granite/ui/components/coral/foundation/container">
                                 <items jcr:primaryType="nt:unstructured">
-                                    <col2title
+                                    <middleTitle
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                                         fieldDescription="Leave empty to use the page title."
                                         fieldLabel="Column 2 Title"
-                                        name="./col2title"/>
+                                        name="./middleTitle"/>
                                     <setStatic
                                         granite:class="list-option-listfrom-showhide-target foundation-layout-util-vmargin"
                                         jcr:primaryType="nt:unstructured"
@@ -122,7 +122,7 @@
                                                                 <field
                                                                     jcr:primaryType="nt:unstructured"
                                                                     sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
-                                                                    name="./leftPages"
+                                                                    name="./middlePagePaths"
                                                                     rootPath="/content"/>
                                                             </multi>
                                                         </items>
@@ -146,18 +146,18 @@
                                 jcr:title="Links"
                                 sling:resourceType="granite/ui/components/coral/foundation/container">
                                 <items jcr:primaryType="nt:unstructured">
-                                    <col3title
+                                    <rightTitle
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                                         fieldDescription="Leave empty to use the page title."
                                         fieldLabel="Column 3 Title"
-                                        name="./col3title"/>
-                                    <col3text
+                                        name="./rightTitle"/>
+                                    <rightText
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                                         fieldDescription="Leave empty to use the page title."
                                         fieldLabel="Column 3 Text"
-                                        name="./col3text"/>
+                                        name="./rightText"/>
                                 </items>
                             </column>
                         </items>

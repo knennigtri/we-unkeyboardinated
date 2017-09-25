@@ -42,18 +42,20 @@
                     </policy_1506122356911>
                 </page>
                 <footer jcr:primaryType="nt:unstructured">
-                    <policy_1506213931133
-                        jcr:lastModified="{Date}2017-09-23T17:48:27.209-07:00"
+                    <policy_1506315185229
+                        jcr:lastModified="{Date}2017-09-24T22:27:48.660-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="We.Unkeyboardinated Footer Policy"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        col1title="Navigation"
-                        col2title="Learn We.Unkey"
-                        col3text="Kevin Nennig is an AEM developer and avid traveler. In his free time he enjoys coding projects and being outside running or preparing for his next adventure"
-                        col3title="About the Author">
+                        leftPagePaths="[/content/we-unkeyboardinated/language-masters/en/central,/content/we-unkeyboardinated/language-masters/en/left,/content/we-unkeyboardinated/language-masters/en/right]"
+                        leftTitle="Resources"
+                        middlePagePaths="[/content/we-unkeyboardinated/language-masters/en/central,/content/we-unkeyboardinated/language-masters/en/left]"
+                        middleTitle="Learn We.Unkey"
+                        rightText="Kevin Nennig is an AEM developer and avid traveler. In his free time he enjoys coding projects and being outside running or preparing for his next adventure."
+                        rightTitle="About the Author">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
-                    </policy_1506213931133>
+                    </policy_1506315185229>
                 </footer>
             </structure>
         </components>
