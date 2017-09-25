@@ -15,6 +15,13 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid"/>
+            <hero
+                jcr:created="{Date}2017-09-22T17:29:54.080-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-09-24T22:35:22.715-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="weunkey/components/structure/hero"/>
         </root>
     </jcr:content>
 </jcr:root>

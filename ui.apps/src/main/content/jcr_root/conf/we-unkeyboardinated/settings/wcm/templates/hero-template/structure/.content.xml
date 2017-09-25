@@ -24,7 +24,8 @@
                 jcr:lastModified="{Date}2017-09-22T17:29:54.080-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="weunkey/components/structure/hero"/>
+                sling:resourceType="weunkey/components/structure/hero"
+                editable="{Boolean}true"/>
             <responsivegrid
                 jcr:created="{Date}2017-09-22T17:30:23.633-07:00"
                 jcr:createdBy="admin"
