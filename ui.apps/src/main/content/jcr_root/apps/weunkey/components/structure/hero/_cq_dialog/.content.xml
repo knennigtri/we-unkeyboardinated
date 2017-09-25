@@ -6,14 +6,13 @@
         jcr:primaryType="nt:unstructured"
         sling:resourceType="granite/ui/components/coral/foundation/container">
         <items jcr:primaryType="nt:unstructured">
-            <tabs
+            <image
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="granite/ui/components/coral/foundation/tabs"
-                maximized="{Boolean}true">
+                sling:resourceType="granite/ui/components/coral/foundation/tabs">
                 <items jcr:primaryType="nt:unstructured">
-                    <tab1
+                    <column2
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Title"
+                        jcr:title="Hero Info"
                         sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
                         margin="{Boolean}true">
                         <items jcr:primaryType="nt:unstructured">
@@ -25,20 +24,32 @@
                                     <title
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                                        fieldDescription="Leave empty to use the page title."
                                         fieldLabel="Title"
-                                        name="./jcr:title"/>
+                                        name="./heroTitle"/>
                                     <subtitle
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                                         fieldLabel="Subtitle"
-                                        name="./subtitle"/>
+                                        name="./heroSubtitle"/>
+                                    <bTitle
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        fieldLabel="Button Title"
+                                        name="./buttonTitle"/>
+                                    <bLink
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        fieldLabel="Button Link"
+                                        name="./buttonLink"/>
                                 </items>
                             </column>
                         </items>
-                    </tab1>
+                    </column2>
+                    <column
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Hero Image"/>
                 </items>
-            </tabs>
+            </image>
         </items>
     </content>
 </jcr:root>

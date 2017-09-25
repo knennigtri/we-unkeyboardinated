@@ -1,11 +1,12 @@
 		<!-- Banner -->
-			<section id="banner" data-sly-use.hero="hero.js">
-				<div class="inner">
-					<h2>${hero.title}</h2>
-					<p>${hero.subtitle}</p>
-					<ul class="actions">
-						<li><a href="#content" class="button big special">Sign Up</a></li>
-						<li><a href="#elements" class="button big alt">Learn More</a></li>
-					</ul>
-				</div>
-			</section>
+<section id="banner" data-sly-use.hero="hero.js" style="${hero.style @ context='styleString'}">
+	<div class="inner">
+		<h2>${hero.title}</h2>
+		<p>${hero.subtitle}</p>
+		<ul class="actions" data-sly-test="${hero.buttonLink && hero.buttonTitle}">
+			<li><a href="${hero.buttonLink @ extension='html'}" class="button big alt">${hero.buttonTitle}</a></li>
+		</ul>
+	</div>
+</section>
+
+
