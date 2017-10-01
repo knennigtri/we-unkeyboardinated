@@ -1,37 +1,34 @@
-		<!-- Footer -->
-			<footer id="footer" data-sly-use.footer="footer.js">
-				<div class="container">
-					<div class="row double">
-						<div class="6u">
-							<div class="row collapse-at-2">
-								<div class="6u">
-									<h3>${footer.leftTitle}</h3>
-									<ul class="alt">
-								        <li data-sly-repeat="${footer.leftPagePaths}"><a href="${item.path}.html">${item.title}</a></li>
-								    </ul>
-								</div>
-								<div class="6u">
-									<h3>${footer.middleTitle}</h3>
-									<ul class="alt">
-								        <li data-sly-repeat="${footer.middlePagePaths}"><a href="${item.path}.html">${item.title}</a></li>
-								    </ul>
-								</div>
-							</div>
-						</div>
-						<div class="6u">
-							<h3>${footer.rightTitle}</h3>
-							<p>${footer.rightText}</p>
-							<ul class="icons">
-								<li><a href="https://twitter.com/knennigTri" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="https://www.linkedin.com/in/kevinnennig/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://github.com/knennigtri/" class="icon fa-github"><span class="label">Github</span></a></li>
-							</ul>
-						</div>
-					</div>
+		<footer id="footer" data-sly-use.footer="footer.js">
+		<div class="responsivegrid aem-GridColumn aem-GridColumn--default--12 ">  
+      		<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 aem-Grid--tablet--12 aem-Grid--phone--12 ">
+				<div class="aem-GridColumn--tablet--6 aem-GridColumn--phone--6 aem-GridColumn aem-GridColumn--default--3">
+					<h3>${footer.leftTitle}</h3>
+					<ul class="alt">
+				        <li data-sly-repeat="${footer.leftPagePaths}"><a href="${item.path}.html">${item.title}</a></li>
+				    </ul>
+				</div>
+				<div class="aem-GridColumn--tablet--6 aem-GridColumn--phone--6 aem-GridColumn aem-GridColumn--default--3">
+					<h3>${footer.middleTitle}</h3>
+					<ul class="alt">
+				        <li data-sly-repeat="${footer.middlePagePaths}"><a href="${item.path}.html">${item.title}</a></li>
+				    </ul>
+				</div>
+				<div class="aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--6">
+					<h3>${footer.rightTitle}</h3>
+					<p>${footer.rightText}</p>
+					<ul class="icons">
+						<li><a href="https://twitter.com/knennigTri" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.linkedin.com/in/kevinnennig/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/knennigtri/" class="icon fa-github"><span class="label">Github</span></a></li>
+					</ul>
+				</div>
+				<div class="aem-GridColumn aem-GridColumn--default--12">
 					<ul class="copyright">
 						<li><i class="icon fa-copyright"></i> We.Unkeyboardinated. All rights reserved.</li>
 						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
 						<li>Developer: <a href="https://www.linkedin.com/in/kevinnennig/">Kevin Nennig</a></li>
 					</ul>
 				</div>
-			</footer>
+			</div>
+		</div>
+		</footer>
