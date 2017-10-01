@@ -8,10 +8,24 @@ Features Used:
  - Editable Templates
  - Reusable Content Policies
  - Layout Container
- - aem-Grid
- - component clientlibs 
+ - AEM-Grid
+ - Component clientlibs 
+ - Fully Responsive
 
-![We.Unkeyboardinated Screenshot](site-image.png?raw=true "Site Screenshot")
+![We.Unkeyboardinated Screenshot](screenshots/site-image.png?raw=true)
+
+### Includes 6 different Editable Templates
+![We.Unkey Templates](screenshots/site-templates.png?raw=true)
+
+### 6 Core components and 5 custom components total. Clientlibs all moved to /apps for modularity
+![We.Unkey Templates](screenshots/we-unkey-components.png?raw=true)
+
+
+### Custom Footer component with Custom Policy (cq:design_dialog)
+![We.Unkey Templates](screenshots/footer-component.png?raw=true)
+
+![We.Unkey Templates](screenshots/footer-policy.png?raw=true)
+
 
 ## Modules
 
