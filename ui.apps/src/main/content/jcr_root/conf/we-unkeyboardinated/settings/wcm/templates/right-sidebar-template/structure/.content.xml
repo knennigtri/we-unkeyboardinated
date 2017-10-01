@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2017-09-23T03:10:57.539-07:00"
+        cq:lastModified="{Date}2017-10-01T00:53:58.333-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/we-unkeyboardinated/settings/wcm/templates/right-sidebar-template"
         jcr:primaryType="cq:PageContent"
@@ -41,6 +41,9 @@
                     <phone
                         jcr:primaryType="nt:unstructured"
                         width="12"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="6"/>
                 </cq:responsive>
             </responsivegrid_46487728>
             <responsivegrid_235967764
@@ -58,6 +61,9 @@
                     <phone
                         jcr:primaryType="nt:unstructured"
                         width="12"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="6"/>
                 </cq:responsive>
             </responsivegrid_235967764>
             <responsivegrid

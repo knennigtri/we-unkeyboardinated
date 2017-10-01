@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-09-30T21:15:48.211-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/we-unkeyboardinated/settings/wcm/templates/simple-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Simple"
+        sling:resourceType="weunkey/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2017-09-30T21:08:56.038-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-09-30T21:09:02.858-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <title
+                    jcr:created="{Date}2017-09-30T21:14:27.159-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-09-30T21:15:27.549-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="My Custom title"
+                    sling:resourceType="weunkey/components/content/title"
+                    subtitle="The best subtle subtitle there is"
+                    type="h1"/>
+                <horizontal_line
+                    jcr:created="{Date}2017-09-30T21:14:38.721-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-09-30T21:14:38.721-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="weunkey/components/content/horizontal-line"/>
+                <text
+                    jcr:created="{Date}2017-09-30T21:14:32.600-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-09-30T21:15:48.206-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="weunkey/components/content/text"
+                    text="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut suscipit sapien. Etiam imperdiet pellentesque posuere. Sed auctor diam nulla, nec pharetra est dignissim et. Phasellus a lacus eu lacus convallis scelerisque vitae vitae tellus.&amp;nbsp;&lt;/p>&#xa;&lt;p>Maecenas accumsan odio in lobortis mollis. Nulla ut nulla at velit molestie sodales eu in urna. Nam placerat tellus ut tortor hendrerit ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed vestibulum ligula eu magna euismod, a maximus est euismod. Aliquam iaculis lorem non tincidunt aliquam. Nullam sit amet venenatis massa.&lt;/p>&#xa;"
+                    textIsRich="true"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

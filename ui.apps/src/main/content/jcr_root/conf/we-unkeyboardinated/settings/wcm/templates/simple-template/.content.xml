@@ -2,10 +2,10 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2017-10-01T00:50:30.739-07:00"
+        cq:lastModified="{Date}2017-09-30T21:13:40.080-07:00"
         cq:lastModifiedBy="admin"
         cq:templateType="/conf/we-unkeyboardinated/settings/wcm/template-types/empty-page"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Left Sidebar Template"
+        jcr:title="Simple Template"
         status="enabled"/>
 </jcr:root>

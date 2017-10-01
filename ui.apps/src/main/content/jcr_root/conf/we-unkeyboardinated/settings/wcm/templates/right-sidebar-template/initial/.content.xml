@@ -23,17 +23,7 @@
                 jcr:lastModified="{Date}2017-09-22T22:39:43.254-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid">
-                <responsivegrid
-                    jcr:created="{Date}2017-09-22T22:39:37.493-07:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2017-09-22T22:39:37.493-07:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <cq:responsive jcr:primaryType="nt:unstructured"/>
-                </responsivegrid>
-            </responsivegrid_235967764>
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
             <responsivegrid_46487728
                 jcr:created="{Date}2017-09-22T22:40:15.013-07:00"
                 jcr:createdBy="admin"

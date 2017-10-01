@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2017-09-22T22:46:09.645-07:00"
+        cq:lastModified="{Date}2017-09-30T22:54:05.688-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/we-unkeyboardinated/settings/wcm/templates/right-sidebar-template"
         jcr:primaryType="cq:PageContent"
@@ -17,7 +17,15 @@
                 jcr:lastModified="{Date}2017-09-22T22:39:15.072-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <horizontal_line
+                    jcr:created="{Date}2017-09-30T22:52:14.328-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-09-30T22:52:14.328-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="weunkey/components/content/horizontal-line"/>
+            </responsivegrid>
             <responsivegrid_235967764
                 jcr:created="{Date}2017-09-22T22:39:35.254-07:00"
                 jcr:createdBy="admin"
@@ -25,15 +33,13 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
-                <responsivegrid
-                    jcr:created="{Date}2017-09-22T22:39:37.493-07:00"
+                <title
+                    jcr:created="{Date}2017-09-30T22:51:42.886-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2017-09-22T22:39:37.493-07:00"
+                    jcr:lastModified="{Date}2017-09-30T22:51:42.886-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <cq:responsive jcr:primaryType="nt:unstructured"/>
-                </responsivegrid>
+                    sling:resourceType="weunkey/components/content/title"/>
             </responsivegrid_235967764>
             <responsivegrid_46487728
                 jcr:created="{Date}2017-09-22T22:40:15.013-07:00"
@@ -41,7 +47,16 @@
                 jcr:lastModified="{Date}2017-09-22T22:40:18.446-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <image
+                    jcr:created="{Date}2017-09-30T22:51:37.075-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-09-30T22:54:05.681-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="weunkey/components/content/image"
+                    fileReference="/content/dam/we-unkey/banner.jpg"/>
+            </responsivegrid_46487728>
         </root>
     </jcr:content>
 </jcr:root>

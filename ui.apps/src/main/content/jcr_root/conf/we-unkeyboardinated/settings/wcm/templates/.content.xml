@@ -6,4 +6,5 @@
     <content-page-template/>
     <left-sidebar-template/>
     <right-sidebar-template/>
+    <simple-template/>
 </jcr:root>
