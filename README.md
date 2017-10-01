@@ -11,7 +11,7 @@ Features Used:
  - aem-Grid
  - component clientlibs 
 
-![We.Unkeyboardinated Screenshot](site-image.tiff?raw=true "Site Screenshot")
+![We.Unkeyboardinated Screenshot](site-image.png?raw=true "Site Screenshot")
 
 ## Modules
 
