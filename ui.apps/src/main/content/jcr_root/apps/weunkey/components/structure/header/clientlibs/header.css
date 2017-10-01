@@ -1,0 +1,113 @@
+	
+/* Header */
+	.header {
+		padding: 0;
+	}
+	
+	#header {
+		background: #fff;
+		color: #555f66;
+		cursor: default;
+		height: 3em;
+		left: 0;
+		line-height: 3em;
+		/* position: inherit; */
+		top: 0;
+		width: 100%;
+		/* z-index: 10000; */
+		box-shadow: 0 0.1em 0 0 rgba(0, 0, 0, 0.25);
+	}
+
+		#header h1 {
+			color: #666f77;
+			font-weight: 500;
+			height: inherit;
+			left: 1.25em;
+			line-height: inherit;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			top: 0;
+		}
+
+			#header h1 a {
+				font-size: .5em;
+			}
+
+		#header nav {
+			height: inherit;
+			line-height: inherit;
+			position: absolute;
+			right: 1.25em;
+			top: 0;
+			vertical-align: middle;
+		}
+
+			#header nav > ul {
+				list-style-type: none;
+				margin: 0;
+				boarder: 0;
+				padding-left: 0;
+			}
+
+				#header nav > ul > li {
+					border: 0;
+					border-radius: 6px;
+					display: inline-block;
+					margin: 0 0 0 3em;
+					padding-left: 0;
+				}
+
+					#header nav > ul > li a {
+						-moz-transition: color 0.2s ease-in-out;
+						-webkit-transition: color 0.2s ease-in-out;
+						-o-transition: color 0.2s ease-in-out;
+						-ms-transition: color 0.2s ease-in-out;
+						transition: color 0.2s ease-in-out;
+						color: #697883;
+						display: inline-block;
+						text-decoration: none;
+					}
+
+						#header nav > ul > li a:hover {
+							color: #629DD1;
+						}
+
+					#header nav > ul > li:first-child {
+						margin-left: 0;
+					}
+
+					#header nav > ul > li .button {
+						height: 2.25em;
+						line-height: 2.25em;
+						margin-bottom: 0;
+						padding: 0 1em;
+						position: relative;
+						top: -0.075em;
+						vertical-align: middle;
+					}
+
+		#header .container {
+			position: relative;
+		}
+
+			#header .container h1 {
+				left: 0;
+			}
+
+			#header .container nav {
+				right: 0;
+			}
+			
+	header.major  {
+		padding-top: 2.5em;
+		text-align: center;
+	}
+	header.major h1 {
+		margin: .3em;
+	}
+	
+	header.major p {
+		color: #bbb;
+		font-size: 1.2em
+	}
