@@ -1,8 +1,17 @@
-# Sample AEM project template
-
-This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
+# We.Unkeyboardinated
 
 Reference Site: https://templated.co/ion
+* It's worth noting that I completely removed the responsive code (skel.css) from the code base. Rather, I just used the aem grid system. Worked like a charm!
+
+Features Used:
+ - Core Components 1.0.6
+ - Editable Templates
+ - Reusable Content Policies
+ - Layout Container
+ - aem-Grid
+ - component clientlibs 
+
+![We.Unkeyboardinated Screenshot](site-image.tiff?raw=true "Site Screenshot")
 
 ## Modules
 
