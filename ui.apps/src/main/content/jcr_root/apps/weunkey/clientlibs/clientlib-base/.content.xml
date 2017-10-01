@@ -3,4 +3,4 @@
     jcr:primaryType="cq:ClientLibraryFolder"
     allowProxy="{Boolean}true"
     categories="[we-unkey.base]"
-    embed="[we-unkey.site,we-unkey.page]"/>
+    embed="[we-unkey.font-awesome,we-unkey.site,we-unkey.page]"/>

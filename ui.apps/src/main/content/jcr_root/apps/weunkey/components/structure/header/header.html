@@ -1,8 +1,8 @@
 <!-- Header -->
-<header id="header" class="skel-layers-fixed">
-	<h1><a href="#">We.Unkeyboardinated</a></h1>
+<header id="header" data-sly-use.header="header.js" >
+	<h1><a href="${head.root}.html">We.Unkeyboardinated</a></h1>
 	<nav id="nav">
-        <ul data-sly-use.header="header.js" >
+        <ul>
             <li data-sly-repeat="${header.items}">
                 <a href="${item.path}.html">${item.title}</a>
             </li>
