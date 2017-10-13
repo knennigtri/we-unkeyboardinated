@@ -58,5 +58,8 @@
                     fileReference="/content/dam/we-unkey/banner.jpg"/>
             </responsivegrid_46487728>
         </root>
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
     </jcr:content>
 </jcr:root>

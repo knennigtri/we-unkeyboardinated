@@ -209,6 +209,9 @@
                 subtitle="Tempus adipiscing commodo ut aliquam blandit"
                 type="h1"/>
         </root>
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
     </jcr:content>
     <simple/>
 </jcr:root>
