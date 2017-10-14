@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2017-10-01T02:29:22.807-07:00"
+        cq:lastModified="{Date}2017-10-12T21:45:55.327-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/we-unkeyboardinated/settings/wcm/templates/hero-template"
         jcr:primaryType="cq:PageContent"
@@ -12,13 +12,72 @@
             <responsivegrid
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
+                <card_link_copy_1743330499
+                    jcr:created="{Date}2017-10-01T02:29:22.786-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-10-12T21:44:59.917-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="My Card"
+                    sling:resourceType="weunkey/components/content/card-link"
+                    cssClass="fa-rocket"
+                    text="Card Text">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="11"/>
+                    </cq:responsive>
+                </card_link_copy_1743330499>
+                <card_link_copy
+                    jcr:created="{Date}2017-10-01T02:29:22.786-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-10-12T21:44:17.910-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="My Card"
+                    sling:resourceType="weunkey/components/content/card-link"
+                    cssClass="fa-plane"
+                    text="Card Text">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            behavior="hide"/>
+                    </cq:responsive>
+                </card_link_copy>
                 <card_link
                     jcr:created="{Date}2017-10-01T02:29:22.786-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2017-10-01T02:29:22.786-07:00"
+                    jcr:lastModified="{Date}2017-10-12T21:44:41.029-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="weunkey/components/content/card-link"/>
+                    jcr:title="My Card"
+                    sling:resourceType="weunkey/components/content/card-link"
+                    cssClass="fa-bicycle"
+                    text="Card Text">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            behavior="hide"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            behavior="hide"/>
+                    </cq:responsive>
+                </card_link>
             </responsivegrid>
         </root>
         <image jcr:primaryType="nt:unstructured">
@@ -28,4 +87,5 @@
     <left/>
     <right/>
     <central/>
+    <bicycles/>
 </jcr:root>

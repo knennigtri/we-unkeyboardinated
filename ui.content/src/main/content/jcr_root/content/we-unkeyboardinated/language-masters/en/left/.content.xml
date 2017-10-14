@@ -2,11 +2,13 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2017-09-30T21:00:25.730-07:00"
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2017-10-13T22:51:08.069-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/we-unkeyboardinated/settings/wcm/templates/left-sidebar-template"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Left"
+        jcr:title="Ella"
         sling:resourceType="weunkey/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"
@@ -43,18 +45,20 @@
                     <image
                         jcr:created="{Date}2017-09-22T23:57:45.920-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2017-09-22T23:59:25.731-07:00"
+                        jcr:lastModified="{Date}2017-10-13T21:55:11.504-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="weunkey/components/content/image"
-                        fileReference="/content/dam/we-unkey/pic01.jpg"/>
+                        fileReference="/content/dam/we-unkey/en/ella/Snapchat--5032657023181559347.png"/>
                     <title
                         jcr:created="{Date}2017-09-23T00:36:55.876-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2017-09-23T00:36:55.876-07:00"
+                        jcr:lastModified="{Date}2017-10-13T21:57:15.232-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="weunkey/components/content/title"/>
+                        jcr:title="Manual V8 GT"
+                        sling:resourceType="weunkey/components/content/title"
+                        type="h2"/>
                     <text
                         jcr:created="{Date}2017-09-22T23:57:41.476-07:00"
                         jcr:createdBy="admin"
@@ -83,17 +87,18 @@
                     <image
                         jcr:created="{Date}2017-09-22T23:57:45.920-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2017-09-22T23:59:30.048-07:00"
+                        jcr:lastModified="{Date}2017-10-13T21:55:15.490-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="weunkey/components/content/image"
-                        fileReference="/content/dam/we-unkey/pic02.jpg"/>
+                        fileReference="/content/dam/we-unkey/en/ella/20160927_181239.png"/>
                     <title
                         jcr:created="{Date}2017-09-23T00:36:58.845-07:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2017-09-23T00:36:58.845-07:00"
+                        jcr:lastModified="{Date}2017-10-13T21:58:00.341-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
+                        jcr:title="Road Trips"
                         sling:resourceType="weunkey/components/content/title"/>
                     <text
                         jcr:created="{Date}2017-09-22T23:57:41.476-07:00"
@@ -116,10 +121,10 @@
                 <title
                     jcr:created="{Date}2017-09-30T20:50:46.184-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2017-09-30T20:59:27.424-07:00"
+                    jcr:lastModified="{Date}2017-10-13T21:59:14.120-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="Left column"
+                    jcr:title="Speed"
                     sling:resourceType="weunkey/components/content/title"
                     type="h3"/>
                 <text
@@ -141,16 +146,16 @@
                 <title_copy
                     jcr:created="{Date}2017-09-30T20:50:46.184-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2017-09-30T20:59:27.424-07:00"
+                    jcr:lastModified="{Date}2017-10-13T22:51:08.065-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="Left column"
+                    jcr:title="Adventures"
                     sling:resourceType="weunkey/components/content/title"
                     type="h3"/>
                 <list
                     jcr:created="{Date}2017-09-30T19:15:15.875-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2017-09-30T19:17:06.529-07:00"
+                    jcr:lastModified="{Date}2017-10-13T22:50:55.739-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="weunkey/components/content/list"
@@ -159,7 +164,7 @@
                     listFrom="children"
                     maxItems="5"
                     orderBy="title"
-                    parentPage="/content/we-unkeyboardinated/language-masters/en"
+                    parentPage="/content/we-unkeyboardinated/language-masters/en/left"
                     searchIn="/content/dam/we-retail/en"
                     showDescription="false"
                     showModificationDate="false"
@@ -176,20 +181,20 @@
                 <title_copy
                     jcr:created="{Date}2017-09-30T20:50:46.184-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2017-09-30T21:00:25.719-07:00"
+                    jcr:lastModified="{Date}2017-10-13T21:58:20.102-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="Main COlumn"
+                    jcr:title="My Mustang Ella"
                     sling:resourceType="weunkey/components/content/title"
                     type="h2"/>
                 <image
-                    jcr:created="{Date}2017-09-22T22:57:07.655-07:00"
+                    jcr:created="{Date}2017-10-13T21:44:01.009-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2017-09-22T22:58:34.526-07:00"
+                    jcr:lastModified="{Date}2017-10-13T21:55:01.986-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="weunkey/components/content/image"
-                    fileReference="/content/dam/we-unkey/pic03.jpg"/>
+                    fileReference="/content/dam/we-unkey/en/ella/20160926_190022.png"/>
                 <text
                     jcr:created="{Date}2017-09-22T23:00:33.993-07:00"
                     jcr:createdBy="admin"
@@ -201,17 +206,17 @@
                     textIsRich="true"/>
             </responsivegrid_1392926619>
             <title
-                jcr:lastModified="{Date}2017-09-30T17:33:56.449-07:00"
+                jcr:lastModified="{Date}2017-10-13T22:09:13.274-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                jcr:title="Left Sidebar"
+                jcr:title="Ella"
                 sling:resourceType="weunkey/components/content/title"
-                subtitle="Tempus adipiscing commodo ut aliquam blandit"
+                subtitle="Power Behind the Wheel"
                 type="h1"/>
         </root>
         <image jcr:primaryType="nt:unstructured">
             <file/>
         </image>
     </jcr:content>
-    <simple/>
+    <roadtrip-to-cali/>
 </jcr:root>

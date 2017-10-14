@@ -18,12 +18,10 @@ use(function() {
 			lPagePaths.forEach( function (arrayItem)
 					{
 					    var pageObject = pManager.getPage(arrayItem);
-					    log.info("LeftPage: " + pageObject.getTitle());
 					    leftPages.push(pageObject);
 					});
 		}else{
 			var pageObject = pManager.getPage(lPagePaths);
-		    log.info("singleLeftPage: " + pageObject.getTitle());
 		    leftPages.push(pageObject);
 		}
 	}
@@ -35,12 +33,10 @@ use(function() {
 			mPagePaths.forEach( function (arrayItem)
 					{
 					    var pageObject = pManager.getPage(arrayItem);
-					    log.info("MiddlePage: " + pageObject.getTitle());
 					    middlePages.push(pageObject);
 					});
 		}else{
 			var pageObject = pManager.getPage(mPagePaths);
-		    log.info("singleMiddlePage: " + pageObject.getTitle());
 		    middlePages.push(pageObject);
 		}
 	}

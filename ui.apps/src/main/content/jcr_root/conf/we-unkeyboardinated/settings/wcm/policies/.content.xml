@@ -15,12 +15,12 @@
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_210919416616525>
                     <policy_216127568318485
-                        jcr:lastModified="{Date}2017-09-22T22:40:31.089-07:00"
+                        jcr:lastModified="{Date}2017-10-13T22:13:04.747-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="We.Unkeyboardinated Content"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/dam/cfm/components/contentfragment,/libs/cq/experience-fragments/editor/components/experiencefragment,group:We.Unkey]">
+                        components="[/libs/dam/cfm/components/contentfragment,/libs/cq/experience-fragments/editor/components/experiencefragment,/libs/wcm/foundation/components/responsivegrid,group:We.Unkey]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_216127568318485>
                 </responsivegrid>
@@ -32,7 +32,7 @@
             <structure jcr:primaryType="nt:unstructured">
                 <page jcr:primaryType="nt:unstructured">
                     <policy_1506122356911
-                        jcr:lastModified="{Date}2017-09-22T22:42:23.337-07:00"
+                        jcr:lastModified="{Date}2017-09-30T21:08:29.930-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="We.Unkeyboardinated Design Policy"
@@ -43,13 +43,13 @@
                 </page>
                 <footer jcr:primaryType="nt:unstructured">
                     <policy_1506315185229
-                        jcr:lastModified="{Date}2017-09-24T22:27:48.660-07:00"
+                        jcr:lastModified="{Date}2017-09-26T15:12:03.773-06:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="We.Unkeyboardinated Footer Policy"
                         sling:resourceType="wcm/core/components/policy/policy"
                         leftPagePaths="[/content/we-unkeyboardinated/language-masters/en/central,/content/we-unkeyboardinated/language-masters/en/left,/content/we-unkeyboardinated/language-masters/en/right]"
-                        leftTitle="Resources"
+                        leftTitle="My Resources"
                         middlePagePaths="[/content/we-unkeyboardinated/language-masters/en/central,/content/we-unkeyboardinated/language-masters/en/left]"
                         middleTitle="Learn We.Unkey"
                         rightText="Kevin Nennig is an AEM developer and avid traveler. In his free time he enjoys coding projects and being outside running or preparing for his next adventure."
@@ -57,7 +57,33 @@
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_1506315185229>
                 </footer>
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <policy_216127568318485
+                        jcr:lastModified="{Date}2017-09-30T18:22:00.477-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="We.Unkeyboardinated Content"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        align="center"
+                        components="[/libs/dam/cfm/components/contentfragment,/libs/cq/experience-fragments/editor/components/experiencefragment,group:We.Unkey]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_216127568318485>
+                </responsivegrid>
             </structure>
+            <content jcr:primaryType="nt:unstructured">
+                <image jcr:primaryType="nt:unstructured"/>
+                <title jcr:primaryType="nt:unstructured">
+                    <policy_1506817312627
+                        jcr:lastModified="{Date}2017-09-30T17:25:54.778-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="we.Unkey Page Title Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        style="major">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1506817312627>
+                </title>
+            </content>
         </components>
     </weunkey>
 </jcr:root>

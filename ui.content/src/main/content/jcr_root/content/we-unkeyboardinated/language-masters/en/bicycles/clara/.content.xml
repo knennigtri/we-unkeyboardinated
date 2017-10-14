@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-10-13T22:43:14.456-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/we-unkeyboardinated/settings/wcm/templates/left-sidebar-template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Clara"
+        jcr:uuid="8b8bbb51-d344-434e-aa9f-385974f9c02c"
+        sling:resourceType="weunkey/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2017-09-22T22:34:33.188-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-09-22T22:34:35.745-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+            <responsivegrid_285228915
+                jcr:created="{Date}2017-09-22T22:35:49.358-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-09-22T22:35:56.295-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+            <responsivegrid_1392926619
+                jcr:created="{Date}2017-09-22T22:35:53.571-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-09-22T22:35:58.735-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+            <responsivegrid_1724907356
+                jcr:created="{Date}2017-09-30T18:18:30.209-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-09-30T18:18:43.971-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="weunkey/components/structure/responsivegrid"/>
+            <title
+                jcr:created="{Date}2017-09-30T21:02:14.026-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-09-30T21:02:38.620-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="weunkey/components/content/title"/>
+        </root>
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+</jcr:root>

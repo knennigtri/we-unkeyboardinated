@@ -1,12 +1,17 @@
 		<!-- Banner -->
-<section id="banner" data-sly-use.hero="hero.js" style="${hero.style @ context='styleString'}">
-	<div class="inner">
-		<h2>${hero.title}</h2>
-		<p>${hero.subtitle}</p>
-		<ul class="actions" data-sly-test="${hero.buttonLink && hero.buttonTitle}">
-			<li><a href="${hero.buttonLink @ extension='html'}" class="button big alt">${hero.buttonTitle}</a></li>
-		</ul>
-	</div>
-</section>
-
+<sly data-sly-use.template="core/wcm/components/commons/v1/templates.html">
+	<section id="banner"  
+			data-sly-use.hero="hero.js" 
+			data-sly-test.heroTest="${hero.style}"  
+			style="${hero.style @ context='styleString'}">
+			<div class="inner">
+				<h2>${hero.title}</h2>
+				<p>${hero.subtitle}</p>
+				<ul class="actions" data-sly-test="${hero.buttonLink && hero.buttonTitle}">
+					<li><a href="${hero.buttonLink @ extension='html'}" class="button big alt">${hero.buttonTitle}</a></li>
+				</ul>
+			</div>
+	</section>
+</sly>
+<sly data-sly-call="${template.placeholder @ isEmpty=!heroTest}"></sly>
 

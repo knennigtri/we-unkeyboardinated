@@ -17,6 +17,7 @@ use(function() {
     } 
 	
     if(image != "undefined"){
+    	log.info("Image: " + image);
     	style = "background-image:url(" + image + ");";
     }
 

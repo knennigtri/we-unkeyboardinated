@@ -2,11 +2,13 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2017-09-30T22:54:05.688-07:00"
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2017-10-13T22:47:54.418-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/we-unkeyboardinated/settings/wcm/templates/right-sidebar-template"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Right"
+        jcr:title="Anastasia"
         sling:resourceType="weunkey/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"
@@ -25,6 +27,84 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="weunkey/components/content/horizontal-line"/>
+                <responsivegrid
+                    jcr:created="{Date}2017-10-13T22:14:20.432-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-10-13T22:14:20.432-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                    </cq:responsive>
+                    <image
+                        jcr:created="{Date}2017-10-13T22:10:24.698-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2017-10-13T22:39:00.011-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="weunkey/components/content/image"
+                        fileReference="/content/dam/we-unkey/en/anastasia/2011-06-01 17.50.21.png"/>
+                    <title
+                        jcr:created="{Date}2017-10-13T22:10:29.360-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2017-10-13T22:41:21.607-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Half Ironman Training"
+                        sling:resourceType="weunkey/components/content/title"
+                        type="h2"/>
+                    <text
+                        jcr:created="{Date}2017-10-13T22:10:32.045-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2017-10-13T22:15:18.857-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="weunkey/components/content/text"
+                        text="&lt;p>Maecenas accumsan odio in lobortis mollis. Nulla ut nulla at velit molestie sodales eu in urna. Nam placerat tellus ut tortor hendrerit ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed vestibulum ligula eu magna euismod, a maximus est euismod. Aliquam iaculis lorem non tincidunt aliquam. Nullam sit amet venenatis massa.&lt;br>&#xa;&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                </responsivegrid>
+                <responsivegrid_copy
+                    jcr:created="{Date}2017-10-13T22:14:20.432-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-10-13T22:14:20.432-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                    </cq:responsive>
+                    <image
+                        jcr:created="{Date}2017-10-13T22:10:24.698-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2017-10-13T22:39:06.484-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="weunkey/components/content/image"
+                        fileReference="/content/dam/we-unkey/en/anastasia/20120719_221759.png"/>
+                    <title
+                        jcr:created="{Date}2017-10-13T22:10:29.360-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2017-10-13T22:41:37.936-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Adventures at ISU"
+                        sling:resourceType="weunkey/components/content/title"
+                        type="h2"/>
+                    <text
+                        jcr:created="{Date}2017-10-13T22:10:32.045-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2017-10-13T22:15:23.496-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="weunkey/components/content/text"
+                        text="&lt;p>Maecenas accumsan odio in lobortis mollis. Nulla ut nulla at velit molestie sodales eu in urna. Nam placerat tellus ut tortor hendrerit ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed vestibulum ligula eu magna euismod, a maximus est euismod. Aliquam iaculis lorem non tincidunt aliquam. Nullam sit amet venenatis massa.&lt;br>&#xa;&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                </responsivegrid_copy>
             </responsivegrid>
             <responsivegrid_235967764
                 jcr:created="{Date}2017-09-22T22:39:35.254-07:00"
@@ -36,10 +116,21 @@
                 <title
                     jcr:created="{Date}2017-09-30T22:51:42.886-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2017-09-30T22:51:42.886-07:00"
+                    jcr:lastModified="{Date}2017-10-13T22:40:21.721-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="weunkey/components/content/title"/>
+                    jcr:title="Intro"
+                    sling:resourceType="weunkey/components/content/title"
+                    type="h3"/>
+                <text_copy
+                    jcr:created="{Date}2017-10-13T22:10:16.372-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-10-13T22:10:45.863-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="weunkey/components/content/text"
+                    text="&lt;p>Nunc nec iaculis odio, a tempor mi. Curabitur elit orci, porttitor sit amet aliquet vitae, euismod ultricies neque. Quisque tristique eros et aliquet efficitur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla hendrerit elit ornare augue aliquam, sollicitudin pellentesque eros gravida. Suspendisse nulla ipsum, facilisis vitae placerat a, hendrerit vel ex. Nam auctor eros id metus fermentum, ac facilisis nulla volutpat. Aenean in felis a mauris malesuada ullamcorper. Praesent aliquam diam ut enim dapibus suscipit. Integer dui lorem, auctor et laoreet sodales, condimentum sed metus. Pellentesque dictum lacinia risus et imperdiet. Quisque in ultricies mauris. Nulla facilisis, elit nec facilisis pulvinar, nibh eros volutpat lorem, in porta diam magna in enim.&lt;/p>&#xa;&lt;p>Maecenas accumsan odio in lobortis mollis. Nulla ut nulla at velit molestie sodales eu in urna. Nam placerat tellus ut tortor hendrerit ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed vestibulum ligula eu magna euismod, a maximus est euismod. Aliquam iaculis lorem non tincidunt aliquam. Nullam sit amet venenatis massa.&lt;/p>&#xa;"
+                    textIsRich="true"/>
             </responsivegrid_235967764>
             <responsivegrid_46487728
                 jcr:created="{Date}2017-09-22T22:40:15.013-07:00"
@@ -48,15 +139,46 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
+                <title_copy
+                    jcr:created="{Date}2017-09-30T22:51:42.886-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-10-13T22:39:54.941-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="From Iowa to San Francisco"
+                    sling:resourceType="weunkey/components/content/title"/>
                 <image
                     jcr:created="{Date}2017-09-30T22:51:37.075-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2017-09-30T22:54:05.681-07:00"
+                    jcr:lastModified="{Date}2017-10-13T22:38:38.894-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="weunkey/components/content/image"
-                    fileReference="/content/dam/we-unkey/banner.jpg"/>
+                    fileReference="/content/dam/we-unkey/en/anastasia/2012-08-01 18.46.13.png">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="8"/>
+                    </cq:responsive>
+                </image>
+                <text
+                    jcr:created="{Date}2017-10-13T22:10:16.372-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-10-13T22:10:45.863-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="weunkey/components/content/text"
+                    text="&lt;p>Nunc nec iaculis odio, a tempor mi. Curabitur elit orci, porttitor sit amet aliquet vitae, euismod ultricies neque. Quisque tristique eros et aliquet efficitur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla hendrerit elit ornare augue aliquam, sollicitudin pellentesque eros gravida. Suspendisse nulla ipsum, facilisis vitae placerat a, hendrerit vel ex. Nam auctor eros id metus fermentum, ac facilisis nulla volutpat. Aenean in felis a mauris malesuada ullamcorper. Praesent aliquam diam ut enim dapibus suscipit. Integer dui lorem, auctor et laoreet sodales, condimentum sed metus. Pellentesque dictum lacinia risus et imperdiet. Quisque in ultricies mauris. Nulla facilisis, elit nec facilisis pulvinar, nibh eros volutpat lorem, in porta diam magna in enim.&lt;/p>&#xa;&lt;p>Maecenas accumsan odio in lobortis mollis. Nulla ut nulla at velit molestie sodales eu in urna. Nam placerat tellus ut tortor hendrerit ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed vestibulum ligula eu magna euismod, a maximus est euismod. Aliquam iaculis lorem non tincidunt aliquam. Nullam sit amet venenatis massa.&lt;/p>&#xa;"
+                    textIsRich="true"/>
             </responsivegrid_46487728>
+            <title
+                jcr:lastModified="{Date}2017-10-13T22:19:08.413-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Anastasia"
+                sling:resourceType="weunkey/components/content/title"
+                subtitle="A Ride to Remember"
+                type="h1"/>
         </root>
         <image jcr:primaryType="nt:unstructured">
             <file/>

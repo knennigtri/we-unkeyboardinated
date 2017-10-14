@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-10-13T22:42:56.903-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/we-unkeyboardinated/settings/wcm/templates/content-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Bicycles"
+        sling:resourceType="weunkey/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <title_page
+                jcr:created="{Date}2017-09-22T22:31:40.785-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-09-22T22:31:53.905-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="weunkey/components/structure/title-page"/>
+            <responsivegrid
+                jcr:created="{Date}2017-09-22T22:31:51.178-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-09-22T22:31:56.298-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+            <title
+                jcr:created="{Date}2017-09-23T03:11:42.490-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-09-23T03:11:57.183-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="weunkey/components/content/title"
+                subtitle="Example Subtitle"/>
+        </root>
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+    <clara/>
+    <ansa/>
+    <pocahontas/>
+</jcr:root>

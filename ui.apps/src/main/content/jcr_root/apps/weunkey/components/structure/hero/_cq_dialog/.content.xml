@@ -38,9 +38,10 @@
                                         name="./buttonTitle"/>
                                     <bLink
                                         jcr:primaryType="nt:unstructured"
-                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
                                         fieldLabel="Button Link"
-                                        name="./buttonLink"/>
+                                        name="./buttonLink"
+                                        rootPath="/content"/>
                                 </items>
                             </column>
                         </items>
