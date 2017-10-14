@@ -6,4 +6,11 @@ function myFunction() {
     } else {
         x.className = "topnav";
     }
+    var x = document.getElementById("header");
+    if (x.className === "") {
+        x.className += " responsive";
+    } else {
+        x.className = "";
+    }
+    
 }
